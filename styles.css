@@ -1,0 +1,17 @@
+h1 {
+  align-items: center;
+}
+
+td {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+#board-container {
+  background: white;
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+}

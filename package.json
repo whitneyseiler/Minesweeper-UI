@@ -1,0 +1,16 @@
+{
+  "name": "minsweeper",
+  "version": "1.0.0",
+  "description": "Minesweeper UI",
+  "dependencies": {
+    "axios": "^0.18.0",
+  },
+  "devDependencies": {
+  },
+  "author": "Whitney Seiler",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitneyseiler/Minesweeper-UI.git"
+  }
+}
