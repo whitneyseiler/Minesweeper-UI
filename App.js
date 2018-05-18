@@ -60,7 +60,7 @@ function handleCellClick(x,y,index) {
   
   if (count === -1) {
     clickedCell.setAttribute("class", "bomb");
-    clickedCell.innerHTML = "*";
+    clickedCell.innerHTML = ":(";
     setTimeout(function(){ alert("GAME OVER!"); }, 100);
   } else {
     clickedCell.setAttribute("class", "safe");
