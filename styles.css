@@ -1,17 +1,27 @@
-h1 {
-  align-items: center;
+body {
+  text-align: center;
+}
+
+#container {
+  padding: 30px;
+}
+
+table {
+  margin: 0 auto;
+  border: 1px solid black;
 }
 
 td {
     border: 1px solid black;
-    width: 50px;
-    height: 50px;
-    background: red;
+    padding: 1px;
+    width: 30px;
+    height: 30px;
 }
 
-#board-container {
-  background: white;
-  border: 1px solid black;
-  width: 400px;
-  height: 400px;
+.safe {
+  background: grey;
+}
+
+.bomb {
+  background: red;
 }
